@@ -25,6 +25,15 @@ public class Application {
         //change to "ON" state
 
     //ON state
+
+
+
+}
+
+
+
+/*  DELET THIS
+
     BaggageScanner scannerA = new BaggageScanner();
 
     Passagier passagier1 = new Passagier();
@@ -41,7 +50,4 @@ public class Application {
 
     InterfaceScanner scanner = new BaggageScanner();
 
-    scanner.
-
-
-}
+    scanner.*/
