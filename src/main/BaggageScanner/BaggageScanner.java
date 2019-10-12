@@ -30,12 +30,12 @@ public class BaggageScanner implements IBaggageScanner {
     }
 
     public void setTray(Tray tray){
-
+        //if state = passend
         this.tray = tray;
+        //else: do nothing;
     }
 
     public void setRollerConveyer(RollerConveyer rollerConveyer){
-
         this.rollerConveyer = rollerConveyer;
     }
 
@@ -44,7 +44,6 @@ public class BaggageScanner implements IBaggageScanner {
     }
 
     public void setOperatingStation(OperatingStation operatingStation){
-
         this.operatingStation = operatingStation;
     }
 
