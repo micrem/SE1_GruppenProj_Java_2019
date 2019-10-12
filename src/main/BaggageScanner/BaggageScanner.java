@@ -30,10 +30,12 @@ public class BaggageScanner implements IBaggageScanner {
     }
 
     public void setTray(Tray tray){
+
         this.tray = tray;
     }
 
     public void setRollerConveyer(RollerConveyer rollerConveyer){
+
         this.rollerConveyer = rollerConveyer;
     }
 
@@ -42,6 +44,7 @@ public class BaggageScanner implements IBaggageScanner {
     }
 
     public void setOperatingStation(OperatingStation operatingStation){
+
         this.operatingStation = operatingStation;
     }
 
