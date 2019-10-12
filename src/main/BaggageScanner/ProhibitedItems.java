@@ -1,6 +1,7 @@
 package BaggageScanner;
 
 public enum ProhibitedItems {
+    none,
     knife,
     explosive,
     gun
