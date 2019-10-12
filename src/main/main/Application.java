@@ -1,6 +1,7 @@
 package main;
 
 import BaggageScanner.BaggageScanner;
+import Employees.InspectorManualPostControl;
 import configuration.Configuration;
 
 import java.net.PasswordAuthentication;
@@ -10,7 +11,8 @@ public class Application {
     Configuration config  = Configuration.KnuthMorrisPratt;
 
     // Gepäkscännner legt seiene Objekte an
-
+    BaggageScanner BS1=new BaggageScanner();
+    //InspectorManualPostControl insMPC=new InspectorManualPostControl(1, "Mueller", "10.10.1990", true, BS1.setManualPostControl(););
     //read all data -> 3 Maps:
         //map id - passagierObject
         //map passangerID - handgepäckID
