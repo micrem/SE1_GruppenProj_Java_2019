@@ -26,12 +26,11 @@ public class HandBaggage {
         layer4Text = baggageText.substring(30000,40000);
         layer5Text = baggageText.substring(40000,50000);
 
-        Layer layer1_Op = new Layer(layer1Text,this);
-        Layer layer2_Op = new Layer(layer2Text,this);
-        Layer layer3_Op = new Layer(layer3Text,this);
-        Layer layer4_Op = new Layer(layer4Text,this);
-        Layer layer5_Op = new Layer(layer5Text,this);
-
+        Layer layer1 = new Layer(layer1Text,this);
+        Layer layer2 = new Layer(layer2Text,this);
+        Layer layer3 = new Layer(layer3Text,this);
+        Layer layer4 = new Layer(layer4Text,this);
+        Layer layer5 = new Layer(layer5Text,this);
 
     }
 
