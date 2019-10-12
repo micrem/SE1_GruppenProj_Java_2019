@@ -2,5 +2,6 @@ package Employees;
 
 public interface iInspectorManualPostControl {
     void ConfiscateKnife();
-    void Push();
+    void NeutralizeExplosive();
+    void PushBack();
 }
