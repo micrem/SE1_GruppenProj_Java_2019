@@ -3,15 +3,15 @@ package BaggageScanner;
 
 import java.util.Map;
 
-public class BaggageScanner {
-    ProhibitedItems x = ProhibitedItems.knife;
+public class BaggageScanner implements IBaggageScanner {
+    private StatusBaggageScanner status;
+    private ProhibitedItems verbotendeGegen;
 
-/*
-    private Map<ProhibitedItems, String> ProhibitedItemStrings = new Map<ProhibitedItems, String> ({
-            {"kn!fe",
-            "exp|os!ve",
-            "glock|7"
-    });*/
+    public BaggageScanner (){
+        this.status = StatusBaggageScanner.shutdown;
+
+    }
+
 
 
 }
