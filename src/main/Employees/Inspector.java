@@ -2,7 +2,7 @@ package Employees;
 
 import java.util.Date;
 
-public class Inspector extends Employee {
+public abstract class Inspector extends Employee {
     private boolean isSenior;
 
     public Inspector(int pid, String pname, Date pbirthDate, boolean pisSenior) {
