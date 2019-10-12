@@ -5,7 +5,7 @@ import BaggageScanner.RollerConveyer;
 import java.util.Date;
 
 
-public class InspectorRollerConveyer extends Inspector {
+public class InspectorRollerConveyer extends Inspector implements iInspectorRollerConveyer{
 
     RollerConveyer assignedConveyer;
     public void ExecutePush(){
@@ -16,6 +16,7 @@ public class InspectorRollerConveyer extends Inspector {
         super(pid, pname, pbirthDate, pisSenior);
         this.assignedConveyer=passignedConveyer;
     }
-
+    @Override
+    public void Push(){}
 
 }
